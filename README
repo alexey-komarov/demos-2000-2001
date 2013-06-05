@@ -1,0 +1,28 @@
+DESCRIPTION
+
+This is some of my early demos that were written during the first years of my
+university studies.
+
+Initially they were written using TASM syntax, but now I have adapted them to
+compile with FASM (http://flatassembler.net).
+
+* plasma     512 byte demo showing a simple plasma effect;
+
+* clouds     512 byte demo was written for the MindResources2001 demoparty. 
+             It shows something resembling running clouds.
+
+* magtro     intro writing for Mortal Antibiotic Group. It contains a (stupid) 
+             algorithm to convert the internal bitmap font to a vector format.
+
+* fract_wi   4kb intro showing some fractal effects on the theme of winter.
+
+
+COMPILATION
+
+Download flat assembler for DOS (http://flatassembler.net/download.php)
+and compile with:
+
+	fasm plasma.asm
+	fasm magtro.asm
+	fasm clouds.asm
+	fasm fract_wi.asm
